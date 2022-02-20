@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <title>pseudoklase link</title>
+
+    <style>
+        #wrapper{
+            margin: 0 auto;
+            width: 400px;
+        }
+
+        input[type="text"]{
+            width: 100%;
+            padding: 10px;
+            border: 2px solid blue;
+            margin: 10px 0;
+            
+        }
+
+        input[type="text"]:hover{
+            background-color: gold;
+            
+        }
+               
+            </style>
+</head>
+<body>
+  
+    <div id="wrapper">
+
+        <form>
+            <input type="text" name="name" id="name" placeholder="NAME" autocomplete="off">
+            <input type="text" name="e-mail" id="e-mail" placeholder="E-MAIL" autocomplete="off">
+            <input disabled type="text" name="subject" id="subject" placeholder="SUBJECT (disabled)" autocomplete="off">
+            <input type="submit" name="submit" id="name" value="SEND">
+            <input type="checkbox" name="checkbox" id="SUBSCRIBE">
+            <label for="SUBSCRIBE">I WANT TO RECIEVE INFORMATION</label>
+
+        </form>
+    </div>
+
+</body>
+</html>
